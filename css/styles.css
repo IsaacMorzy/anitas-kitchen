@@ -76,14 +76,63 @@
     color:#666;
   }
   .menulst ul li a:hover {
-      color: #666;
+    color: #666;
     text-decoration:none;
   }
   .menulst a{text-decoration:none;
     color:#666;
   }
-  .menulst a:hover{text-decoration:none;
+  .menulst a:hover{
+    text-decoration:none;
     color:#666;
   }
+  #happyhour{
+    background-color: #E5D6D6;
+    height:100px;
+    text-align: center;
+    color: #050404;
+    font-family: "Courier New,Courier monospace";
+  }
+  #partytime{
+    background-color: #EB5819;
+    height: 100px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
 
-}
+  }
+  #breakfast{
+    background:url(../images/foodtop/breakfast.jpg);
+    height:200px;
+    text-align: center;
+    color:#ffffff;
+    font-family: "Courier New",Courier,monospace;
+    padding-right: 0px;
+    }
+    #breakfast:hover{
+      opacity;2;
+      color:black;
+      font-weight: 500;
+      }
+    #lunch{
+      background:url(../images/foodtop/lunch.jpg);
+      height:200px;
+      text-align: center;
+      color:#ffffff;
+      font-family: "Courier New",Courier,monospace;
+    }
+    #lunch:hover{
+      opacity:0.5;
+      color:black;
+      }
+    #dinner{
+      background:url(../images/foodtop/dinner.jpg);
+      height:200px;
+      text-align: center;
+      color:#ffffff;
+      font-family:"Courier New",Courier,monospace;
+      }
+    #dinner:hover{
+      opacity:0.5;
+      color:black;
+      }
