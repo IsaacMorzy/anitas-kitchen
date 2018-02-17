@@ -1,0 +1,89 @@
+.header{
+  background-image:url(../images/backgrounds/landing.jpg);
+  text-align: center;
+  height:500px;
+  font-family:monospace,Courier;
+  font-size: 15px;
+}
+.hamburgermenu{
+  width:fit-content;
+  height: 50px;
+  line-height: normal;
+}
+.hamburger-icon{
+  background: none;
+  float:left;
+  position: absolute;
+  top:auto;
+  right: inherit;
+  line-height: normal;
+  padding:5px 15px 5px 15px;
+  color: #ffffff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:inherit;
+}
+.drpdown{
+  background:none;
+  //position:absolute;
+  float: left;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:Black;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  pull: left;
+
+}
+.menulst{
+  z-index:1000000;
+    font-weight:bold;
+    font-size:0.8em;
+    width:40%;
+    background:#F15A29;
+    position:absolute;
+    text-align:center;
+    font-size:12px;}
+
+  .menulst ul {
+    margin: 0;
+     padding: 0;
+     list-style-type: none;
+     list-style-image: none;
+   }
+  .menulst li {
+    display: block;
+    padding:15px 0 15px 0;
+    border-bottom:#dddddd 1px solid;
+  }
+  .menulst li:hover{
+    display: block;
+    background:#ffffff;
+    padding:15px 0 15px 0;
+     border-bottom:#dddddd 1px solid;
+   }
+  .menulst ul li a {
+    text-decoration:none;
+    margin: 0px;
+    color:#666;
+  }
+  .menulst ul li a:hover {
+      color: #666;
+    text-decoration:none;
+  }
+  .menulst a{text-decoration:none;
+    color:#666;
+  }
+  .menulst a:hover{text-decoration:none;
+    color:#666;
+  }
+
+}
